@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- JQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js">
+    </script>
+    <script>
+        $(document).ready(function(){
+            /* Primeiro Vídeo */
+            $(".img1").click(function(){
+                $(".modalContainer1").addClass("mostrar");
+            });
+            $(".modalContainer1").click(function(){
+                $(".modalContainer1").removeClass("mostrar");
+            });
+
+            /* Segundo Vídeo */
+            $(".img2").click(function(){
+                $(".modalContainer2").addClass("mostrar");
+            });
+            $(".modalContainer2").click(function(){
+                $(".modalContainer2").removeClass("mostrar");
+            });
+
+            /* Terceiro Vídeo */
+            $(".img3").click(function(){
+                $(".modalContainer3").addClass("mostrar");
+            });
+            $(".modalContainer3").click(function(){
+                $(".modalContainer3").removeClass("mostrar");
+            });
+
+            /* Quarto Vídeo */
+            $(".img4").click(function(){
+                $(".modalContainer4").addClass("mostrar");
+            });
+            $(".modalContainer4").click(function(){
+                $(".modalContainer4").removeClass("mostrar");
+            });
+
+            /* Quinto Vídeo */
+            $(".img5").click(function(){
+                $(".modalContainer5").addClass("mostrar");
+            });
+            $(".modalContainer5").click(function(){
+                $(".modalContainer5").removeClass("mostrar");
+            });
+
+            /* Sexto Vídeo */
+            $(".img6").click(function(){
+                $(".modalContainer6").addClass("mostrar");
+            });
+            $(".modalContainer6").click(function(){
+                $(".modalContainer6").removeClass("mostrar");
+            });
+        });
+    </script>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="normalize.css">
+
+    <!-- FAVICON -->
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+
+    <!-- FONTAWESOME -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+
+    <title>Video Project</title>
+</head>
+<body>
+    <header>
+        <div class="headerCabecalho">
+            <div class="logo">
+                <h1><img src="img/logo.png" alt="logo" width="7%"></h1>
+                <aside class="tituloNav">
+                    Video Project
+                </aside>
+            </div>
+            <nav>
+                <div class="navbarCabecalho">
+                    <ul>
+                        <li>
+                            <a href="https://www.youtube.com/" class="links" target="_blank">
+                                Youtube <center><i class="fa-brands fa-youtube"></i></center>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://github.com/paulo-campos-57" class="links" target="_blank">
+                                Github <center><i class="fa-brands fa-github"></i></center>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <div class="main">
+        <nav class="navbarItens">
+            <ul>
+                <li>
+                    <img src="img/img_01.jpg" alt="img1" class="img1">
+                    <h3>Among Us Dance</h3>
+                    <p>
+                        Video from channel 
+                        <a href="https://www.youtube.com/channel/UCDUa-QkHxImk7GmfH6tnomA" class="links" target="_blank">
+                            Soul.
+                        </a> 
+                        <a href="https://www.youtube.com/watch?v=nZBJnSvGAf0" class="links" target="_blank"> 
+                            Watch it on Youtube.
+                        </a>
+                    </p>
+                    <div class="modalContainer1">
+                        <span id="btnVideo1"><i class="fa-solid fa-xmark"></i></span>
+                        <video class="modalVideo1" src="video/video_01.mp4" controls></video>
+                    </div>
+                </li>
+                <li>
+                    <img src="img/img_02.jpg" alt="img2" class="img2">
+                    <h3>Orangutan Swimming</h3>
+                    <p>
+                        Video from channel 
+                        <a href="https://www.youtube.com/c/BluXD" class="links" target="_blank">
+                            Blu.
+                        </a> 
+                        <a href="https://www.youtube.com/watch?v=SzAmAWO9dwg" class="links" target="_blank">
+                            Watch it on Youtube.
+                        </a>
+                    </p>
+                    <div class="modalContainer2">
+                        <span id="btnVideo2"><i class="fa-solid fa-xmark"></i></span>
+                        <video class="modalVideo2" src="video/video_02.mp4" controls></video>
+                    </div>
+                </li>
+                <li>
+                    <img src="img/img_03.jpg" alt="img3" class="img3">
+                    <h3>Guido, IT'S TIME</h3>
+                    <p>
+                        Video from channel 
+                        <a href="https://www.youtube.com/c/XM1337" class="links" target="_blank">
+                            XM.
+                        </a> 
+                        <a href="https://www.youtube.com/watch?v=KOqyjj57MCw" class="links" target="_blank">
+                            Watch it on Youtube.
+                        </a>
+                    </p>
+                    <div class="modalContainer3">
+                        <span id="btnVideo3"><i class="fa-solid fa-xmark"></i></span>
+                        <video class="modalVideo3" src="video/video_03.mp4" controls></video>
+                    </div>
+                </li>
+            </ul>
+        </nav>
+        <br><br>
+        <nav class="navbarItens">
+            <ul>
+                <li>
+                    <img src="img/img_04.jpg" alt="img4" class="img4">
+                    <h3>Patrick and Air</h3> 
+                    <p>
+                        Video from channel 
+                        <a href="https://www.youtube.com/user/lmmaSpongeBob" class="links" target="_blank">
+                            ImmaSpongeBob. 
+                        </a>
+                        <a href="https://www.youtube.com/watch?v=OaGOhwuTfKw" class="links" target="_blank">
+                            Watch it on Youtube.
+                        </a>
+                    </p>
+                    <div class="modalContainer4">
+                        <span id="btnVideo4"><i class="fa-solid fa-xmark"></i></span>
+                        <video class="modalVideo4" src="video/video_04.mp4" controls></video>
+                    </div>
+                </li>
+                <li>
+                    <img src="img/img_05.jpg" alt="img5" class="img5">
+                    <h3>Joel Santana Speak english</h3>
+                    <p>
+                        Video from channel 
+                        <a href="https://www.youtube.com/user/luks775" class="links" target="_blank">
+                            Lucas Vieira.
+                        </a>
+                        <a href="https://www.youtube.com/watch?v=V5RWMxEALSA" class="links" target="_blank">
+                            Watch it on Youtube.
+                        </a>
+                    </p>
+                    <div class="modalContainer5">
+                        <span id="btnVideo5"><i class="fa-solid fa-xmark"></i></span>
+                        <video class="modalVideo5" src="video/video_05.mp4" controls></video>
+                    </div>
+                </li>
+                <li>
+                    <img src="img/img_06.jpg" alt="img6" class="img6">
+                    <h3>Epic Sax Gandalf</h3>
+                    <p>
+                        Video from channel 
+                        <a href="https://www.youtube.com/c/UkesofHazzard" class="links" target="_blank">
+                            Ukes of Hazzard.
+                        </a>
+                        <a href="https://www.youtube.com/watch?v=BBGEG21CGo0&t=2s" class="links" target="_blank">
+                            Watch it on Youtube
+                        </a>
+                    </p>
+                    <div class="modalContainer6">
+                        <span id="btnVideo6"><i class="fa-solid fa-xmark"></i></span>
+                        <video class="modalVideo6" src="video/video_06.mp4" controls></video>
+                    </div>
+                </li>
+            </ul>
+        </nav>
+    </div>
+    <footer class="footer">
+        <p>Video Project</p>
+    </footer>
+</body>
+</html>
