@@ -96,26 +96,32 @@ body {
 .img1 {
     max-height: 200px;
     max-width: 200px;
+    cursor: pointer;
 }
 .img2 {
     max-height: 200px;
     max-width: 200px;
+    cursor: pointer;
 }
 .img3 {
     max-height: 200px;
     max-width: 200px;
+    cursor: pointer;
 }
 .img4 {
     max-height: 200px;
     max-width: 200px;
+    cursor: pointer;
 }
 .img5 {
     max-height: 200px;
     max-width: 200px;
+    cursor: pointer;
 }
 .img6 {
     max-height: 200px;
     max-width: 200px;
+    cursor: pointer;
 }
 
 .modalContainer1 {
